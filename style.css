@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,700&family=Poppins:wght@100&display=swap');
+
+body {
+  background-color: #2B2B2B;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: white;
+  line-height: 15px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  /* border: black 1px solid; */
+}
+
+.card {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  padding: 40px;
+  background-color: #888888;
+  border-radius: 4px;
+  margin: 24px auto;
+  text-align: center;
+  width: 700px;
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+.btn {
+  background-color: #303841;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-2 {
+  background-color: #303841;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+   font-family: 'Poppins', sans-serif;
+}
+
+h1,h2 {
+  color: greenyellow;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: greenyellow;
+  font-size: xx-large;
+}
+
+.list-inline {
+    list-style:none;
+    padding: 0;
+}
+
+.list-inline li {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.list-inline a {
+    font-size: 56px;
+}
+
+@media (max-width: 700px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
